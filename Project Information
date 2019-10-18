@@ -1,0 +1,78 @@
+************************
+* Non-profit:          *
+* Education is Freedom *
+************************
+
+Project Description:
+--------------------
+Education is Freedom is looking for a user driven (student/company) web-based intern placement system to help match students to internship opportunities,
+companies, and roles that would best suite them. This process should take should consider criteria defined by EIF and interests defined by students.
+
+Q&A:
+----------------------------------------------------------
+What are the EIF admin requirements?
+
+
+Are we allowed to alter the application criteria?
+YES.
+
+How are you going to gauge the 95% satisfaction criteria?
+2 or 3 questions asking about satisfaction
+
+Is the application largely natural language?
+
+What kinds of people will be using this web app?
+
+How does the data come in?
+Online application, information from either a spreadsheet/database
+
+Leading causes for dissatisfaction:
+unwanted company, uncool company
+
+Why would we need to use resumes?
+Last resort? lol
+
+*******************
+* Considerations: *
+*******************
+- What happens if a student turns down a job?
+  they get matched up in the next iteration
+- What happens if a company has no student match?
+  Go to interests pool
+- Highly sought after vs. less desirable internships
+
+Requirements:
+-------------
+- Web App
+- desktop/mobile friendly (responsive web app)
+- Security considerations
+- ~500 companies
+- ~1000 students
+
+Entire matching process:
+------------------------
+front end interface -> profile creation -> INTERN/COMPANY MATCH (MVP) -> intern management
+
+Current process for intern/company match:
+-----------------------------------------
+1.
+  a. students pick 5 jobs they want to interview w/ from company job descriptions
+  b. companies review resumes and interests from student profile, pick 1-x students to interview
+     can leave blanks (students don't have to fill all the ranks)
+
+2. Scheduling 6 15 min interviews for 2 interviewers per company
+   3 sessions of 6 interviews total
+   sessions separated by schools
+
+3. Students rank job preferences 1-5
+   Companies rank students 1-x
+   Check for matches on multiple levels
+   Not all the students will get a jobs
+
+4. Report
+   output results, include student/company ranking
+   automated offer letter
+
+ULTIMATE GOAL: Most Best Fit/Best Match, only one match
+
+Inputs:
