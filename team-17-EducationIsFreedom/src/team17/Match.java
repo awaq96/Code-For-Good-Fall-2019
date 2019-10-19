@@ -64,6 +64,16 @@ public class Match {
         return returnArr;
     }
 
+    ArrayList<Company> getCompany(int rank, Company[] company, Position position){
+        ArrayList<Company> returnArr = new ArrayList<Company>();
+
+        for(int i = 0; i < company.lenght; i++){
+            if(!isNull(company[i]) && company[i].secondDesiredPositions[rank] == position))
+        }
+
+        return returnArr;
+    }
+
     boolean isNull(Object o){
         if(o == null)
             return true;
@@ -72,8 +82,12 @@ public class Match {
     }
 
     void match1to1s(Student[] students, Company[] companies){
+
         Student s;
         ArrayList<Student> arr = new ArrayList<>();
+
+        Company s;
+        ArrayList<Company> arr = new ArrayList<>();
 
         for(int i = 0; i < companies.length; i++){
             for(int j = 0; j < companies[i].positions.length; j++){
