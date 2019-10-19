@@ -5,9 +5,9 @@ public class Company {
     private Student[] firstDesiredStudents;
     private Student[] secondDesiredStudents;
     private String[] industry;
+    private int internAmt;
     private InterviewSession[] interviewSessions = new InterviewSession[3];
-    Position[] positions;
-    public InterviewInterest[] interviewInterests = new InterviewInterest[500];
+
     void setName(String name) {
 
     }
@@ -16,6 +16,21 @@ public class Company {
         return name;
     }
 
+    void setFirstDesiredStudents(String firstdesiredstudents) {
+
+    }
+
+    Student[] getFirstDesiredStudents() {
+        return firstDesiredStudents;
+    }
+
+    void setSecondDesiredStudents(String seconddesiredstudents) {
+
+    }
+
+    Student[] getSecondDesiredStudents() {
+        return secondDesiredStudents;
+    }
 
     void setIndustry(String industry) {
 
@@ -23,6 +38,14 @@ public class Company {
 
     String[] getIndustry() {
         return industry;
+    }
+
+    void setInternAmt(int internAmt) {
+
+    }
+
+    int getInternAmt() {
+        return internAmt;
     }
 
     void setInterviewSessions(String interviewSessions) {
