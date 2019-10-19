@@ -5,5 +5,6 @@ public class Position {
     Student[] secondDesiredStudents;
     private String name;
     String company;
+    int internAmt;
 
 }
