@@ -13,10 +13,7 @@ public class Match {
             a[0]=students[n].getEmail();
             a[1]=Integer.toString(i);
             interested.put(name,a);
-
         }}
-
-
     }
 
     void assign(Student[] students, Company[] companies){
