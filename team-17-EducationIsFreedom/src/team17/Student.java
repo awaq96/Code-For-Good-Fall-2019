@@ -1,33 +1,17 @@
 package team17;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Student {
-    private Company[] firstDesiredCompanies = new Company[5];
-    private Company[] secondDesiredCompanies = new Company[5];
+    Position[] firstDesiredPositions = new Position[5];
+    Position[] secondDesiredPositions = new Position[5];
     private String email;
     private String[] interests;
     private int year;
     private double gpa;
     private String school;
 
-    void setFirstDesiredCompanies(String companies) {
-
-    }
-
-    Company[] getFirstDesiredCompanies() {
-        return firstDesiredCompanies;
-    }
-
-    void setSecondDesiredCompanies(String companies) {
-
-    }
-
-    Company[] getSecondDesiredCompanies() {
-        return secondDesiredCompanies;
-    }
-
-    void setEmail(String email) {
-
-    }
 
     String getEmail() {
         return email;
