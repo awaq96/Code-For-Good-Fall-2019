@@ -1,13 +1,12 @@
 package team17;
 
 public class Company {
-    private String name;
-    private Student[] firstDesiredStudents;
-    private Student[] secondDesiredStudents;
-    private String[] industry;
-    private InterviewSession[] interviewSessions = new InterviewSession[3];
+    String name;
+//    private Student[] firstDesiredStudents;
+//    private Student[] secondDesiredStudents;
+//    private String[] industry;
+//    private InterviewSession[] interviewSessions = new InterviewSession[3];
     Position[] positions;
-    public InterviewInterest[] interviewInterests = new InterviewInterest[500];
     void setName(String name) {
 
     }
@@ -21,16 +20,12 @@ public class Company {
 
     }
 
-    String[] getIndustry() {
-        return industry;
+    void setPositions(int n){
+        positions = new Position[n];
     }
 
     void setInterviewSessions(String interviewSessions) {
 
-    }
-
-    InterviewSession[] getInterviewSessions() {
-        return interviewSessions;
     }
 
 

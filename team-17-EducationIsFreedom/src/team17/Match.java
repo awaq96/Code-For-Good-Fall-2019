@@ -8,7 +8,7 @@ public class Match {
     void interviewScheduling(Student[] students, Company[] companies) {
        for(int n=0;n<students.length;n++){
         for(int i=0;i<5;i++){
-            String name = students[n].firstDesiredPositions[i].company;
+            String name = students[n].secondDesiredPositions[i].company;
             String a[] = new String[2];
             a[0]=students[n].getEmail();
             a[1]=Integer.toString(i);
