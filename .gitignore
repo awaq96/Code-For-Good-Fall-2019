@@ -1,4 +1,3 @@
 .DS_Store
 target
-team-17-EducationIsFreedom/.idea/vcs.xml
-team-17-EducationIsFreedom/.idea/workspace.xml
+.idea/*.xml
