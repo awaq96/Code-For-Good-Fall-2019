@@ -11,4 +11,10 @@ public class Student {
         return email;
     }
 
+    Student(){
+        for(int i = 0; i < 5; i++){
+            secondDesiredPositions[i] = new Position();
+        }
+    }
+
 }

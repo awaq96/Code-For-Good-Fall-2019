@@ -11,6 +11,10 @@ public class Company {
 
     }
 
+    Company(){
+
+    }
+
     String getName() {
         return name;
     }
@@ -22,6 +26,9 @@ public class Company {
 
     void setPositions(int n){
         positions = new Position[n];
+        for(int i = 0; i < positions.length; i++){
+            positions[i] = new Position();
+        }
     }
 
     void setInterviewSessions(String interviewSessions) {
