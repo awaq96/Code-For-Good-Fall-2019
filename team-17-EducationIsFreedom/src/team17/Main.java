@@ -18,7 +18,12 @@ public class Main {
         for(int i = 0; i < companies.length; i++){
             companies[i] = new Company();
         }
-        
+
+    }
+
+    public static void populateStudents(){
+        students[0].email = "misherwood0@digg.com";
+
     }
 
 }
