@@ -32,4 +32,3 @@ public class HelloController {
         userRepository.save(user);
     }
 }
-
