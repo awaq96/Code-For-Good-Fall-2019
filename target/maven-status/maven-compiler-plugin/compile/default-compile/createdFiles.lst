@@ -1,0 +1,4 @@
+com/baeldung/h2db/springboot/models/User.class
+com/baeldung/h2db/springboot/daos/UserRepository.class
+com/baeldung/h2db/springboot/SpringBootH2Application.class
+HelloController.class
