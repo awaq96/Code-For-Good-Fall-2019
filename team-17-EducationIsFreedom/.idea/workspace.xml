@@ -72,8 +72,8 @@
       <file leaf-file-name="Match.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/team17/Match.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="375">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding>
                 <element signature="e#105#124#0" expanded="true" />
               </folding>
@@ -262,12 +262,12 @@
       <option name="presentableId" value="Default" />
       <updated>1571455051915</updated>
       <workItem from="1571455055178" duration="234000" />
-      <workItem from="1571455516220" duration="4056000" />
+      <workItem from="1571455516220" duration="6184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4290000" />
+    <option name="totallyTimeSpent" value="6418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -369,26 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/team17/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/team17/Company.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -411,6 +391,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/team17/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/team17/InterviewSession.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -424,8 +424,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/team17/Match.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="375">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="e#105#124#0" expanded="true" />
           </folding>

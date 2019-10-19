@@ -26,7 +26,17 @@ public class Match {
         }
     }
 
+    void matchEverythingElse(Student[] students, Company[] companies){
+        for(int i = 0; i < companies.length; i++){ //iterate through companies
+            for(int j = 0; j < companies[i].positions.length; j++){ //iterate through positions
+//                for(int m = 0; m < 5; m++)
+            }
+        }
+    }
+
     void companyStudentMatching(Student[] students, Company[] companies) {
+        //case 1: student's #1 matches company's position #1
+        match1to1s(students, companies);
 
     }
 }
