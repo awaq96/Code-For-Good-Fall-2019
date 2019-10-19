@@ -1,6 +1,7 @@
 package team17;
 
 public class Company {
+<<<<<<< HEAD
     private String name;
     private Student[] firstDesiredStudents;
     private Student[] secondDesiredStudents;
@@ -8,6 +9,14 @@ public class Company {
     private int internAmt;
     private InterviewSession[] interviewSessions = new InterviewSession[3];
 
+=======
+    String name;
+//    private Student[] firstDesiredStudents;
+//    private Student[] secondDesiredStudents;
+//    private String[] industry;
+//    private InterviewSession[] interviewSessions = new InterviewSession[3];
+    Position[] positions;
+>>>>>>> 390669aa69f9f48d4ab3239cc5f4d02e07af3a02
     void setName(String name) {
 
     }
@@ -36,8 +45,8 @@ public class Company {
 
     }
 
-    String[] getIndustry() {
-        return industry;
+    void setPositions(int n){
+        positions = new Position[n];
     }
 
     void setInternAmt(int internAmt) {
@@ -50,10 +59,6 @@ public class Company {
 
     void setInterviewSessions(String interviewSessions) {
 
-    }
-
-    InterviewSession[] getInterviewSessions() {
-        return interviewSessions;
     }
 
 

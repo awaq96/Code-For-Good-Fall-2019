@@ -1,6 +1,7 @@
 package team17;
 
 public class Student {
+<<<<<<< HEAD
     private Company[] firstDesiredCompanies = new Company[5];
     private Company[] secondDesiredCompanies = new Company[5];
     private String email;
@@ -28,40 +29,13 @@ public class Student {
     void setEmail(String email) {
 
     }
+=======
+    Position[] secondDesiredPositions = new Position[5];
+    String email;
+>>>>>>> 390669aa69f9f48d4ab3239cc5f4d02e07af3a02
 
     String getEmail() {
         return email;
     }
 
-    void setInterests(String interests) {
-
-    }
-
-    String[] getInterests() {
-        return interests;
-    }
-
-    void setYear(int year) {
-
-    }
-
-    int getYear() {
-        return year;
-    }
-
-    void setGpa(double gpa) {
-
-    }
-
-    double getGpa() {
-        return gpa;
-    }
-
-    void setSchool(String school) {
-
-    }
-
-    String getSchool() {
-        return school;
-    }
 }
