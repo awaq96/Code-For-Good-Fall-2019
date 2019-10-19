@@ -7,7 +7,7 @@ public class Company {
     private String[] industry;
     private InterviewSession[] interviewSessions = new InterviewSession[3];
     Position[] positions;
-
+    public InterviewInterest[] interviewInterests = new InterviewInterest[500];
     void setName(String name) {
 
     }
