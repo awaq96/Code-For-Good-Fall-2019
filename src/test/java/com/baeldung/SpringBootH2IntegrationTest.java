@@ -1,8 +1,8 @@
 package com.baeldung;
 
-import com.baeldung.h2db.springboot.SpringBootH2Application;
-import com.baeldung.h2db.springboot.daos.UserRepository;
-import com.baeldung.h2db.springboot.models.User;
+import com.jpmc.cfg.team17.Team17Application;
+import com.jpmc.cfg.team17.daos.UserRepository;
+import com.jpmc.cfg.team17.models.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +14,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = SpringBootH2Application.class)
+@SpringBootTest(classes = Team17Application.class)
 public class SpringBootH2IntegrationTest {
 
     @Autowired

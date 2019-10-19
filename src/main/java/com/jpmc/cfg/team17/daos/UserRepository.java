@@ -1,9 +1,9 @@
-package com.baeldung.h2db.springboot.daos;
+package com.jpmc.cfg.team17.daos;
 
 
 
 
-import com.baeldung.h2db.springboot.models.User;
+import com.jpmc.cfg.team17.models.User;
 import org.springframework.data.repository.CrudRepository;
 
 public interface UserRepository extends CrudRepository<User, Integer> {

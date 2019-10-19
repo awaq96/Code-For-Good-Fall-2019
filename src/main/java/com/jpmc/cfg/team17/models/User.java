@@ -1,4 +1,4 @@
-package com.baeldung.h2db.springboot.models;
+package com.jpmc.cfg.team17.models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
